@@ -8,17 +8,17 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      { hid: '台灣旅遊景點導覽', name: '台灣旅遊景點導覽', content: '台灣旅遊景點導覽' },
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
     ]
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    {src:'@/assets/scss/main.scss'}
+    { src: '@/assets/scss/main.scss' }
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

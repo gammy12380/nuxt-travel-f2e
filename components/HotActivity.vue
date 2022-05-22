@@ -22,7 +22,7 @@
             />
           </div>
           <div class="textBox">
-            <h4>{{ data.ActivityName }}</h4>
+            <h4>{{ checkTitleLength(data.ActivityName) }}</h4>
             <div class="text-content">
               <p>
                 {{ checkTextLength(data.Description) }}
@@ -99,6 +99,14 @@ export default {
     filterData() {
       const filterData = this.cacthData.slice(this.minPage, this.maxPage + 1);
       return filterData;
+    },
+    checkTitleLength(title) {
+      const maxLengh = 25;
+      if (title.length > maxLengh) {
+        return title.slice(0, 25).concat("...");
+      } else {
+        return title;
+      }
     },
     checkTextLength(text) {
       const maxLengh = 100;
