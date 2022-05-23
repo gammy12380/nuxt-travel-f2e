@@ -6,7 +6,7 @@
 * 參考設計師KT的設計圖，https://www.behance.net/gallery/130714243/Taiwan-Tourguide-Project。
 * 使用框架Vue.js + Nuxt.js進行開發，並且選用Nuxt Universal模組，原本的Vue是SPA框架，因此採用SSR的來解決SEO的問題，讓一開始讀取頁面就能產出完整的HTML，也讓資料在Serve端就處理好並回傳瀏覽器渲染。
 * 引入css預處理器-SCSS，並製作RWD響應式網頁。
-* 使用Vuex讓組件之統一管理狀態。
+* 使用Vuex統一管理組件的狀態。
 
 # 功能介紹
 
