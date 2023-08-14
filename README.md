@@ -1,6 +1,6 @@
 # The-F2E-3rd - 台灣旅遊景點導覽
 
-## Demo-Link:https://nuxt-travel-1.herokuapp.com/
+## Demo-Link:https://nuxt-travel-f2e-7niov6gs1-gammy12380.vercel.app/
 
 * The F2E 3rd 第一周作品，有串接PTX公共運輸整合資訊的API，使用到的API為觀光V2、公車V2。
 * 參考設計師KT的設計圖，https://www.behance.net/gallery/130714243/Taiwan-Tourguide-Project。
