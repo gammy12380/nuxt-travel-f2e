@@ -3,10 +3,6 @@ import { getAuthorizationHeader } from '../utils/getHeader';
 import { ADD_SCENICSPOT, ADD_ACTIVITY, ADD_HOTEL, ADD_RESTAURANT, ADD_SEARCH } from "./mutations-type";
 export default {
     getHeader({ commit }) {
-        console.log(this.$config.baseURL)
-        console.log(this.$config.appKey)
-        console.log(this.$config.appID)
-        
         commit('addHeader', getAuthorizationHeader())
     },
     getScenicSpot({ commit, state }) {
