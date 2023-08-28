@@ -6,6 +6,7 @@ export default {
         console.log(this.$config.baseURL)
         console.log(this.$config.appKey)
         console.log(this.$config.appID)
+        
         commit('addHeader', getAuthorizationHeader())
     },
     getScenicSpot({ commit, state }) {
