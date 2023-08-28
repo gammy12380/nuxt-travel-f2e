@@ -43,5 +43,12 @@ export default {
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+  publicRuntimeConfig: {
+    baseURL: 'https://v2.nuxt.com'
+  },
+  privateRuntimeConfig: {
+    appKey: process.env.appKey,
+    appID: process.env.appID
   }
 }

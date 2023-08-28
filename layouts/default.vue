@@ -9,10 +9,6 @@
 import "normalize.css/normalize.css";
 export default {
   created() {},
-  mounted() {
-    console.log(process.env.AppID)
-    console.log(process.env.AppKey)
-  },
 };
 </script>
 <style lang="scss">
