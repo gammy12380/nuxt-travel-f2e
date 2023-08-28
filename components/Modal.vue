@@ -319,13 +319,32 @@ export default {
     }
   }
 }
+@media screen and (max-width: 1366px) {
+  .modal {
+    img {
+      height: 350px;
+    }
+    .modal-text{
+      p{
+        overflow-y: scroll;
+        height: 130px;
+      }
+    }
+  }
+}
 
 @media screen and (max-width: 767px) {
   .modal {
     width: 85%;
-    height: 80%;
+    height: 75%;
     img {
       height: 330px;
+    }
+    .modal-text{
+      p{
+        overflow-y: scroll;
+        height: 100px;
+      }
     }
   }
 }
